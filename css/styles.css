@@ -9,7 +9,7 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: 90%;
   height: 200px;
 }
 
@@ -17,10 +17,11 @@ h1 {
   background-color: antiquewhite;
   box-sizing: border-box;
   border-radius: 5px;
-  display: block;
+  display: flex;
+  justify-content: flex-start;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 90%;
   height: 200px;
 }
 
@@ -34,17 +35,20 @@ h1 {
   text-align: left;
   margin: 10px;
   padding-bottom: 20px;
+  word-spacing: 0.5rem;
+  height: 100px;
 }
 
-.about-bio {
+.about-person {
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  align-items: center;
+  justify-content: space-around;
+  width: 90%;
 }
 
 .bio {
-  background-color: #ff8a84;
-  padding: 10px;
-  margin: 10px;
+  /* padding: 10px; */
   border-radius: 2px;
   display: block;
   margin-left: auto;
@@ -52,5 +56,8 @@ h1 {
 }
 
 .personal-img {
-  width: 50%;
+  width: 40%;
+  padding-top: 20px;
+  border-radius: 5px;
+  display: block;
 }
