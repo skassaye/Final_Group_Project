@@ -9,23 +9,24 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: 90%;
   height: 200px;
 }
 
 .aboutus {
-  background-color: antiquewhite;
-  box-sizing: border-box;
+  background-color: rgb(211, 210, 210);
+  box-sizing: borderrgb(212, 198, 198)
   border-radius: 5px;
-  display: block;
+  display: flex;
+  justify-content: flex-start;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 90%;
   height: 200px;
 }
 
 .aboutus h1 {
-  color: #ff8a84;
+  color: rgb(255, 138, 132);
   font-size: 70px;
   font-weight: bold 10px;
 }
@@ -34,23 +35,61 @@ h1 {
   text-align: left;
   margin: 10px;
   padding-bottom: 20px;
+  word-spacing: 0.5rem;
+  height: 100px;
 }
 
-.about-bio {
+.team h2 {
+  margin-top: 10px;
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-person {
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  align-items: center;
+  justify-content: space-around;
+  width: 90%;
 }
 
 .bio {
-  background-color: #ff8a84;
-  padding: 10px;
-  margin: 10px;
+  /* padding: 10px; */
   border-radius: 2px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+.about-person {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .personal-img {
-  width: 50%;
+  width: 90%;
+  padding-top: 20px;
+  border-radius: 5px;
+  display: block;
+}
+
+.personal-img:hover{
+    background-color: rgb(255, 138, 132);
+   
+}
+
+span {
+  padding: 50px;
+  text-transform: uppercase;
+  color: rgb(255, 138, 132);
+}
+.container-fluid {
+  background-color: rgba(255, 138, 132);
+}
+
+ .bio .about-paragraph{
+    font-size: 16px;
 }
