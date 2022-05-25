@@ -1,17 +1,56 @@
-
 h1 {
-    text-align:center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin: 15px;
-
-
-    
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 15px;
 }
+
 .img-fluid {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  height: 200px;
 }
+
+.aboutus {
+  background-color: antiquewhite;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 200px;
+}
+
 .aboutus h1 {
-    color: #ff8a84;
-    font-size: 70px;
-    font-weight: bold 10px;
+  color: #ff8a84;
+  font-size: 70px;
+  font-weight: bold 10px;
+}
+
+.aboutus h6 {
+  text-align: left;
+  margin: 10px;
+  padding-bottom: 20px;
+}
+
+.about-bio {
+  display: flex;
+  align-items: center;
+}
+
+.bio {
+  background-color: #ff8a84;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personal-img {
+  width: 50%;
 }
