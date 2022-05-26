@@ -1,4 +1,4 @@
-h1 {
+<<<<<<< HEAD h1 {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 15px;
@@ -7,6 +7,19 @@ h1 {
 .logo {
   width: 60px;
   border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  opacity: 0.75;
+  margin: 10px;
+  display: inline-block;
+  width: 20px;
+}
+
+.icon:hover {
+  cursor: pointer;
 }
 
 .img-fluid {
@@ -96,4 +109,22 @@ span {
 
 p .about-paragraph {
   font-size: 16px;
+}
+
+.card-img-top.row {
+  display: block;
+  width: 50px;
+}
+
+.left-arrow.right-arrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.left-right-arrows {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
 }

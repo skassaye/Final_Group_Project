@@ -7,80 +7,136 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+<div class="container-fluid" style="background-color: rgba(255, 138, 132); position: fixed; z-index: 5;">
+    <nav class="navbar navbar-expand-lg " style="top: 0;">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img class="logo" src="Resources/Images/logo.png"></a>
+
+            <div class="search-cart">
+            <img class="cart icon" src="/Resources/Images/bag-heart-fill.svg" />
+            <img
+              class="search icon"
+              src="/Resources/Images/search-heart-fill.svg"
+            />
+          </div>
+            
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                <a class="nav-link" href="#" target="_blank">Home</a>
+                <a class="nav-link" href="products.html" target="_blank">Shop</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" target="_blank">Shop</a>
+                <a class="nav-link" href="about.html" target="_blank">About Us</a>
               </li>
+            
               <li class="nav-item">
-                <a class="nav-link" href="#" target="_blank">Contact Us</a>
+                <a class="nav-link" href="contact.html" target="_blank">Contact Us</a>
               </li> 
               
           </div>
         </div>
       </nav>
-      <div class="about-image">
-<img src="./Resources/Images/about -banner.jpg" class="img-fluid" alt="Picture of Banner"></div>
-
-<div class="aboutus">
-    <h1>About Us</h1>
-    <h6>
-      The MAZR boutique is an online casual-luxury brand. We deliver trendy affordable quality products to customers. We are not just a brand we are a team of passionate people who want to make fashion statement and empower women. Quality and design are of utmost importance to us.
-    </h6>
-  </div>
-
-  <div class="team">
-    <h2> Meet The Team</h2>
-  </div>
-
-<div class="about-person">
-    <div class="bio">
-      <img class="personal-img" src="Resources/Images/vicky.png"   alt="vicky's photo"/>
-     <p class="about-paragraph">
-       <span>Victoria</span><br>
-       Brand Distributor and social media manager. 
-     </p> 
     </div>
+      <!-- Nav bar ends here -->
 
-    <div class="bio">
-      <img class="personal-img" src="Resources/Images/vicky.png"   alt="vicky's photo"/>
-     <p class="about-paragraph"><span>Selam</span><br>
-      Brand Consultant, Design and Purchasing.
+      <!-- banner starts here -->
+<section>
+    <div class="container-fluid">
+        <div class="row">
+           <img src="./Resources/Images/about -banner.jpg" alt="" style="width: 100%;">
+        </div>
+    </div>
+</section>
+      <!-- Banner ends here -->
       
-    </p> 
+<!-- About Us starts here -->
+<div class="container-fluid" style="background-color: rgb(255, 190, 186);">
+    <div class="row p-5 justify-content-center align-items-center">
+        <div class="col-md-2">
+            <h1 class="text-center" style="color:rgb(255, 133, 126); font-weight:bold; font-size: 40pt;"> About <br>Us</h1>
+        </div>
+        <div class="col-md-8" style="font-size: 20px; color: aliceblue;">
+            <p>The MAZR boutique is an online casual-luxury brand. We deliver trendy affordable quality products to customers. We are not just a brand we are a team of passionate people who want to make fashion statement and empower women. Quality and design are of utmost importance to us</p>
+        </div>
+        
     </div>
-
-    <div class="bio">
-      <img class="personal-img" src="Resources/Images/vicky.png"   alt="vicky's photo"/>
-      <p class="about-paragraph"><span>Randy</span><br>
-       Sales and Marketing-- Leading and Coordinating Merchandise
-      </p>
-      
-    </div>
-    
 </div>
-    
- 
+<!-- About Us ends here -->
+
+
   
 
+<!--Meet the team begins here-->
+<div class="container-fluid align-items-center text-dark" style="background-color: rgb(255, 235, 234);">
+    
+        <h1 class="center mx-auto text-center pt-4">Meet our team</h1>
+       
+	  
+            <div id="blogCarousel" class="carousel slide p-5 text-center" data-ride="carousel">
 
+                <!-- Carousel items -->
+                <div class="carousel-inner">
 
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="our-team">
+                                    <div class="pic">
+                                        <img src="./Resources/Images/vicky.png" style="width: 50%;">
+                                    </div>
+                                    <div class="team-content py-3">
+                                        <h3 class="title">Victoria</h3>
+                                        <span class="post">Brand Distributor and Social Media Manager</span>
+                                    </div>                                   
+                                </div>
+                            </div>
 
+                            <div class="col-lg-4 col-md-6 ">
+                                <div class="our-team">
+                                    <div class="pic">
+                                        <img src="./Resources/Images/selam.jpg" style="width: 35%;">
+                                    </div>
+                                    <div class="team-content py-3">
+                                        <h3 class="title">Selam</h3>
+                                        <span class="post">Brand Consultant, Design and Purchasing</span>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="our-team">
+                                    <div class="pic">
+                                        <img src="./Resources/randy.jpg" style="width: 50%;">
+                                    </div>
+                                    <div class="team-content py-5">
+                                        <h3 class="title">Randy</h3>
+                                        <span class="post">Sales and Marketing-- Leading and Coordinating Merchandise</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
 
-
+                </div>
+                <!--.carousel-inner-->
+            </div>
+            <!--.Carousel-->
+</div>
+<footer>
+    <div class="contaner-fluid bg-secondary text-light text-center ">
+        <i class="bi bi-facebook px-3" style="font-size: 1.8rem;"></i>
+        <i class="bi bi-twitter px-3" style="font-size: 1.8rem;"></i>
+        <i class="bi bi-linkedin px-3" style="font-size: 1.8rem;"></i>
+    </div>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
