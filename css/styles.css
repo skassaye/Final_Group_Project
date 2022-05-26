@@ -4,18 +4,23 @@ h1 {
   margin: 15px;
 }
 
+.logo {
+  width: 60px;
+  border-radius: 50%;
+}
+
 .img-fluid {
   margin-bottom: 15px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  height: 200px;
+  height: 150px;
 }
 
 .aboutus {
   background-color: rgb(211, 210, 210);
-  box-sizing: borderrgb(212, 198, 198)
+  box-sizing: borderrgb(212, 198, 198);
   border-radius: 5px;
   display: flex;
   justify-content: flex-start;
@@ -76,9 +81,8 @@ h1 {
   display: block;
 }
 
-.personal-img:hover{
-    background-color: rgb(255, 138, 132);
-   
+.personal-img:hover {
+  border-radius: 2px rgba(255, 138, 132);
 }
 
 span {
@@ -90,6 +94,6 @@ span {
   background-color: rgba(255, 138, 132);
 }
 
- .bio .about-paragraph{
-    font-size: 16px;
+p .about-paragraph {
+  font-size: 16px;
 }
