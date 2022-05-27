@@ -82,22 +82,36 @@
     <!--Product section starts-->
 
     <!--drop down starts here-->
-    <div class="dropdown">
+    <div class="dropdown dropdown-filter">
       <button
-        class="btn btn-secondary dropdown-toggle"
+        class="btn btn-secondary dropdown-toggle category-toggle"
         type="button"
         id="dropdownMenuButton1"
         data-bs-toggle="dropdown"
         aria-expanded="false"
       >
-        Dropdown button
+        Search By category
       </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-        <li><a class="dropdown-item" href="#">Action</a></li>
-        <li><a class="dropdown-item" href="#">Another action</a></li>
-        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <ul
+        class="dropdown-menu category-menu"
+        aria-labelledby="dropdownMenuButton1"
+      >
+        <li><a class="dropdown-item" href="#">Formal Dresses</a></li>
+        <li><a class="dropdown-item" href="#">Casual Wear</a></li>
+        <li><a class="dropdown-item" href="#">Holiday Collection</a></li>
+        <li><a class="dropdown-item" href="#">Accessories</a></li>
       </ul>
+
+      <img class="filter-icon" src="/Resources/Images/filter-square-fill.svg" />
     </div>
+
+    <!--Item category section starts here
+    <div class="item-category">
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+    </div>-->
 
     <section>
       <!--first Product cards-->
@@ -318,7 +332,29 @@
         </div>
       </div>
       <!--product card ends-->
+
+      <!--pagination begins-->
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled pagination">
+            <a class="page-link">Previous</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="products1.html">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="products1.html">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="products1.html">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
     </section>
+    <!--pagination ends-->
     <footer class="product-footer">
       <div class="faq">
         <h5 class="footer-title">Get the 411</h5>
@@ -328,7 +364,7 @@
       </div>
 
       <div class="faq">
-        <h5 class="footer-title">Stay in touch</h5>
+        <h5 class="footer-title">Keep in touch</h5>
         <a href="#" class="footer-content">Instagram</a><br />
         <a href="#" class="footer-content">Facebook</a><br />
         <a href="#" class="footer-content">TikTok</a>
