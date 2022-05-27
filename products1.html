@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--Bootstrap css  Link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div
+      class="container-fluid"
+      style="background-color: rgba(255, 138, 132); position: fixed; z-index: 5"
+    >
+      <nav class="navbar navbar-expand-lg" style="top: 0">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="/Resources/Images/logo.png" />
+          </a>
+          <!--search and cart icons-->
+          <div class="search-cart">
+            <img class="cart icon" src="/Resources/Images/bag-heart-fill.svg" />
+            <img
+              class="search icon"
+              src="/Resources/Images/search-heart-fill.svg"
+            />
+          </div>
+          <!--ending of search and cart icons-->
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="products.html" target="_blank"
+                  >Shop</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" target="_blank"
+                  >About Us</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" target="_blank"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="What's the occassion?"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success nav-btn" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--Product section starts-->
+
+    <!--drop down starts here-->
+    <div class="dropdown dropdown-filter">
+      <button
+        class="btn btn-secondary dropdown-toggle category-toggle"
+        type="button"
+        id="dropdownMenuButton1"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Search By category
+      </button>
+      <ul
+        class="dropdown-menu category-menu"
+        aria-labelledby="dropdownMenuButton1"
+      >
+        <li><a class="dropdown-item" href="#">Formal Dresses</a></li>
+        <li><a class="dropdown-item" href="#">Casual Wear</a></li>
+        <li><a class="dropdown-item" href="#">Holiday Collection</a></li>
+        <li><a class="dropdown-item" href="#">Accessories</a></li>
+      </ul>
+
+      <img class="filter-icon" src="/Resources/Images/filter-square-fill.svg" />
+    </div>
+
+    <!--Item category section starts here
+    <div class="item-category">
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+    </div>-->
+
+    <section>
+      <!--first Product cards-->
+      <div class="row first-row-products">
+        <div class="col-sm-3">
+          <div class="card description">
+            <img
+              src="/Resources/Images/greendress.jpg"
+              class="card-img-top"
+              alt="floral heels"
+            />
+            <div class="card-body">
+              <h5 class="card-title item-description">Green Sparkle Dress</h5>
+              <h6 class="card-title item-price">$98.00</h6>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--first row second column-->
+        <div class="col-sm-3">
+          <div class="card description">
+            <img
+              src="/Resources/Images/cardigan.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title item-description">Patterned Cardigan</h5>
+              <h6 class="card-title item-price">$85.00</h6>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--first row third column-->
+        <div class="col-sm-3">
+          <div class="card description">
+            <img
+              src="/Resources/Images/golddress.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title item-description">Golden Dress</h5>
+              <h6 class="card-title item-price">$108.00</h6>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--first row fourth column-->
+        <div class="col-sm-3">
+          <div class="card description">
+            <img
+              src="/Resources/Images/magentadress.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title item-description">
+                Magenta Statement Dress
+              </h5>
+              <h6 class="card-title item-price">$120.00</h6>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Second row of product card starts second row first column-->
+      <div class="row second-row-products">
+        <div class="col-sm-3">
+          <div class="card description">
+            <img
+              src="/Resources/Images/pinksheerdress.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title item-description">Sheer Pink Dress</h5>
+              <h6 class="card-title item-price">$100.00</h6>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--second row second column-->
+        <div class="col-sm-3">
+          <div class="card description">
+            <img
+              src="/Resources/Images/purpledress.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title item-description">Purple Shoulder Dress</h5>
+              <h6 class="card-title item-price">$110.00</h6>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--second row row third column-->
+        <div class="col-sm-3">
+          <div class="card description">
+            <img
+              src="/Resources/Images/redfloral.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title item-description">Red Floral Dress</h5>
+              <h6 class="card-title item-price">$102.00</h6>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--second row fourth column-->
+        <div class="col-sm-3">
+          <div class="card description">
+            <img
+              src="/Resources/Images/sheerdress.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title item-description">Sheer Pattern Dress</h5>
+              <h6 class="card-title item-price">$106.00</h6>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--third row of product card starts here first column-->
+      <div class="row third-row-products">
+        <div class="col-sm-3">
+          <div class="card description">
+            <img
+              src="/Resources/Images/redsideflow.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title item-description">Red Silhouette Dress</h5>
+              <h6 class="card-title item-price">$120.00</h6>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--third row second column-->
+        <div class="col-sm-3">
+          <div class="card description">
+            <img
+              src="/Resources/Images/Linendress.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title item-description">Flowy Dress Shirt</h5>
+              <h6 class="card-title item-price">$102.00</h6>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--third row third column-->
+        <div class="col-sm-3">
+          <div class="card description">
+            <img
+              src="/Resources/Images/whitefurcoat.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title item-description">White Fur coat</h5>
+              <h6 class="card-title item-price">$150.00</h6>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--third row fourth column-->
+        <div class="col-sm-3 thirdrow-thirdcol">
+          <div class="card description">
+            <img
+              src="/Resources/Images/redminidress.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title item-description">Red Mini Dress</h5>
+              <h6 class="card-title item-price">$98.00</h6>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--product card ends-->
+
+      <!--pagination begins-->
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled pagination">
+            <a class="page-link">Previous</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="products1.html">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="products1.html">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="products1.html">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <!--pagination ends-->
+    <footer class="product-footer">
+      <div class="faq">
+        <h5 class="footer-title">Get the 411</h5>
+        <a href="#" class="footer-content">Terms of Services</a><br />
+        <a href="#" class="footer-content">Shipping Policy</a><br />
+        <a href="#" class="footer-content">F.A.Qs</a>
+      </div>
+
+      <div class="faq">
+        <h5 class="footer-title">Keep in touch</h5>
+        <a href="#" class="footer-content">Instagram</a><br />
+        <a href="#" class="footer-content">Facebook</a><br />
+        <a href="#" class="footer-content">TikTok</a>
+      </div>
+
+      <div class="faq">
+        <h5 class="footer-title">Newsletter</h5>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+
+        <div class="input-group">
+          <input
+            type="text"
+            aria-label="First name"
+            class="form-control"
+            placeholder="First Name"
+          />
+          <input
+            type="text"
+            aria-label="Last name"
+            class="form-control"
+            placeholder="Last Name"
+          />
+        </div>
+
+        <button
+          type="button"
+          class="btn btn-primary footer-btn"
+          style="
+            --bs-btn-padding-y: 0.25rem;
+            --bs-btn-padding-x: 0.5rem;
+            --bs-btn-font-size: 0.75rem;
+          "
+        >
+          Submit
+        </button>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
