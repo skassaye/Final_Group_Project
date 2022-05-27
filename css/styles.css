@@ -1,0 +1,273 @@
+
+ h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 15px;
+}
+
+.logo {
+  width: 60px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  opacity: 0.75;
+  margin: 10px;
+  display: inline-block;
+  width: 20px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.img-fluid {
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 150px;
+}
+
+.aboutus {
+  background-color: rgb(211, 210, 210);
+  box-sizing: borderrgb(212, 198, 198);
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 200px;
+}
+
+.aboutus h1 {
+  color: rgb(255, 138, 132);
+  font-size: 70px;
+  font-weight: bold 10px;
+}
+
+.aboutus h6 {
+  text-align: left;
+  margin: 10px;
+  padding-bottom: 20px;
+  word-spacing: 0.5rem;
+  height: 100px;
+}
+
+.team h2 {
+  margin-top: 10px;
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-person {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.bio {
+  /* padding: 10px; */
+  border-radius: 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-person {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personal-img {
+  width: 90%;
+  padding-top: 20px;
+  border-radius: 5px;
+  display: block;
+}
+
+.personal-img:hover {
+  border-radius: 2px rgba(255, 138, 132);
+}
+
+span {
+  padding: 50px;
+  text-transform: uppercase;
+  color: rgb(255, 138, 132);
+}
+.container-fluid {
+  background-color: rgba(255, 138, 132);
+}
+
+p .about-paragraph {
+  font-size: 16px;
+}
+
+.row > .col-sm-3 {
+  display: block;
+  margin: left;
+  padding-right: 20px;
+}
+
+.row.first-row-products {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 120px;
+}
+
+.second-row-products {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  padding-top: 140px;
+}
+
+.third-row-products {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-top: 170px;
+}
+
+.thirdrow-thirdcol {
+  margin-bottom: 160px;
+}
+.card-img-top {
+  width: 15rem;
+  height: 19rem;
+  border-radius: 3px;
+  transition: width 2s, height 2s, transforms 2s;
+}
+
+.card-img-top:hover {
+  width: 16rem;
+  height: 20rem;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.card.description {
+  width: 15rem;
+  height: 18rem;
+}
+
+.item-description {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.item-price {
+  text-align: center;
+  font-size: 0.6rem;
+}
+
+.add-to-cart,
+.footer-btn {
+  background-color: rgba(255, 138, 132, 0.75);
+  border: 1px solid rgba(255, 138, 132, 0.75);
+  padding: 5px;
+  font-size: 12px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+
+.add-to-cart {
+  margin-left: 50px;
+}
+
+.nav-btn {
+  background-color: lightpink;
+  color: white;
+  border: 1px solid lightpink;
+}
+
+.add-to-cart:hover {
+  background-color: plum;
+  border: 1px solid lightpink;
+}
+
+.footer-btn:hover {
+  background-color: plum;
+  border: 1px solid lightpink;
+}
+
+.nav-btn:hover {
+  background-color: plum;
+  border: 1px solid lightpink;
+}
+
+.product-footer {
+  background-color: rgb(249, 238, 238);
+  border-top: 10px solid rgb(255, 138, 132);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.faq {
+  padding: 40px;
+}
+
+.footer-title {
+  text-transform: uppercase;
+  color: rgb(255, 138, 132);
+}
+
+.faq a {
+  text-decoration: none;
+  color: gray;
+}
+
+.faq a:hover {
+  color: plum;
+  text-decoration: underline;
+}
+
+.footer-btn {
+  margin: 10px;
+}
+
+.dropdown-filter {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.filter-icon {
+  width: 40px;
+  opacity: 0.75;
+  background-color: rgba(255, 138, 132, 0.75);
+  border-radius: 2px;
+}
+
+.filter-icon:hover {
+  background-color: rgba(255, 138, 132, 0.75);
+  cursor: pointer;
+}
+
+.category-toggle {
+  background-color: rgba(255, 138, 132, 0.75);
+  border: 1px solid rgba(255, 138, 132, 0.75);
+}
+
+.category-toggle:hover {
+  background-color: plum;
+}
+
+.pagination .page-link {
+  color: rgb(255, 138, 132);
+}
