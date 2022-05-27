@@ -154,6 +154,7 @@ p .about-paragraph {
   width: 16rem;
   height: 20rem;
   transform: scale(1);
+  cursor: pointer;
 }
 
 .card.description {
@@ -237,11 +238,6 @@ p .about-paragraph {
 .footer-btn {
   margin: 10px;
 }
-
-/*.item-category {
-  padding-top: 160px;
-}
-*/
 
 .dropdown-filter {
   padding-top: 150px;
