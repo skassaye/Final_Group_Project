@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--Bootstrap css  Link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div
+      class="container-fluid"
+      style="background-color: rgba(255, 138, 132); position: fixed; z-index: 5"
+    >
+      <nav class="navbar navbar-expand-lg" style="top: 0">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="/Resources/Images/logo.png" />
+          </a>
+          <!--search and cart icons-->
+          <div class="search-cart">
+            <img class="cart icon" src="/Resources/Images/bag-heart-fill.svg" />
+            <img
+              class="search icon"
+              src="/Resources/Images/search-heart-fill.svg"
+            />
+          </div>
+          <!--ending of search and cart icons-->
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="products.html" target="_blank"
+                  >Shop</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" target="_blank"
+                  >About Us</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" target="_blank"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="What's the occassion?"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success nav-btn" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--drop down starts here-->
+    <div class="dropdown dropdown-filter">
+      <button
+        class="btn btn-secondary dropdown-toggle category-toggle"
+        type="button"
+        id="dropdownMenuButton1"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Search By category
+      </button>
+      <ul
+        class="dropdown-menu category-menu"
+        aria-labelledby="dropdownMenuButton1"
+      >
+        <li><a class="dropdown-item" href="#">Formal Dresses</a></li>
+        <li><a class="dropdown-item" href="#">Casual Wear</a></li>
+        <li><a class="dropdown-item" href="#">Holiday Collection</a></li>
+        <li><a class="dropdown-item" href="#">Accessories</a></li>
+      </ul>
+
+      <img class="filter-icon" src="/Resources/Images/filter-square-fill.svg" />
+    </div>
+
+   
+
+    <!--carousel trial begins-->
+    <div class="trial-carousel-container">
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="/Resources/Images/Blackoffshoulder.jpg"
+              class="d-block w-100 carousel-img"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="/Resources/Images/golddress.jpg"
+              class="d-block w-100 carousel-img"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/Resources/Images/greendress.jpg"
+              class="d-block w-100 carousel-img"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev carousel-btn"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next carousel-btn"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="carousel-details">
+        <div class="carousel-item-price">
+          <p class="carousel-product-title">Black Shoulder Dress</p>
+          <p class="dollar-amount">$98.00</>
+          <p class="availability">In Stock</p>
+        </div>
+
+        <div class="carousel-sizes">
+          <select class="form-select form-select-sizes" aria-label="Default select example">
+                <option selected"> Size</option>
+                <option value="1">Small</option>
+                <option value="2">Medium</option>
+               <option value="3">Large</option>
+               <option value="4">X-Large</option></select>
+               <a href="#" class="btn btn-primary purchase-btn">Add to Cart</a>
+        </div>
+
+        <div class="carousel-item-description">
+          <p class="carousel-paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta in
+            eligendi deserunt velit atque distinctio animi esse doloribus
+            incidunt mollitia, autem consectetur suscipit ad quibusdam quas
+            provident repellat quo! Pariatur. Odio minima doloremque nihil
+            voluptatibus cupiditate quas, impedit officiis nulla ullam modi.
+            Praesentium quas eveniet temporibus voluptatem qui quisquam aperiam
+            reprehenderit mollitia vel, fugiat expedita perferendis nobis eaque
+            illum possimus.
+          </p>
+        </div>
+        <!--paragraph closing tag-->
+      </div>
+      <!--trial container closing tag-->
+    </div>
+    <!--main closing tag-->
+    <!--carousel trial ends-->
+
+   
+      
+<!--item card begins-->
+    <div class="row related-card-row">
+        <h5  class="related-item-h5">Related Items</h5>
+        <div class="col-sm-3 thirdrow-thirdcol">
+          <div class="card description footer-card-description">
+            <img
+              src="/Resources/Images/greendress.jpg"
+              class="card-img-top footer-img"
+              alt="floral heels"
+            />
+            <div class="card-body">
+              <h5 class="card-title related-item-title">Green Sparkle Dress</h5>
+              <h6 class="card-title item-price">$98.00</h6>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary related-btn">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+
+        <!--first row second column-->
+        <div class="col-sm-3 thirdrow-thirdcol related-item-box">
+          <div class="card description footer-card-description">
+            <img
+              src="/Resources/Images/cardigan.jpg"
+              class="card-img-top footer-img"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title related-item-title">Patterned Cardigan</h5>
+              <h6 class="card-title item-price">$85.00</h6>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary related-btn">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--first row third column-->
+        <div class="col-sm-3 thirdrow-thirdcol ">
+          <div class="card description footer-card-description">
+            <img
+              src="/Resources/Images/golddress.jpg"
+              class="card-img-top footer-img"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title related-item-title">Golden Dress</h5>
+              <h6 class="card-title item-price">$108.00</h6>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary related-btn">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--first row fourth column-->
+        <div class="col-sm-3 thirdrow-thirdcol">
+          <div class="card description footer-card-description">
+            <img
+              src="/Resources/Images/golddress.jpg"
+              class="card-img-top footer-img"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title related-item-title">Golden Dress</h5>
+              <h6 class="card-title item-price">$108.00</h6>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary related-btn">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+<!--item card ends-->
+    <!---footer begins-->
+    <footer class="product-footer carousel-footer">
+      <div class="faq">
+        <h5 class="footer-title">Get the 411</h5>
+        <a href="#" class="footer-content">Terms of Services</a><br />
+        <a href="#" class="footer-content">Shipping Policy</a><br />
+        <a href="#" class="footer-content">F.A.Qs</a>
+      </div>
+
+      <div class="faq">
+        <h5 class="footer-title">Keep in touch</h5>
+        <a href="#" class="footer-content">Instagram</a><br />
+        <a href="#" class="footer-content">Facebook</a><br />
+        <a href="#" class="footer-content">TikTok</a>
+      </div>
+
+      <div class="faq">
+        <h5 class="footer-title">Newsletter</h5>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+
+        <div class="input-group">
+          <input
+            type="text"
+            aria-label="First name"
+            class="form-control"
+            placeholder="First Name"
+          />
+          <input
+            type="text"
+            aria-label="Last name"
+            class="form-control"
+            placeholder="Last Name"
+          />
+        </div>
+
+        <button
+          type="button"
+          class="btn btn-primary footer-btn"
+          style="
+            --bs-btn-padding-y: 0.25rem;
+            --bs-btn-padding-x: 0.5rem;
+            --bs-btn-font-size: 0.75rem;
+          "
+        >
+          Submit
+        </button>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

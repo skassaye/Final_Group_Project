@@ -92,10 +92,13 @@
   padding-top: 20px;
   border-radius: 5px;
   display: block;
+  transition: width 2s, height 2s, transforms 2s;
 }
 
 .personal-img:hover {
-  border-radius: 2px rgba(255, 138, 132);
+  width: 12rem;
+  height: 15rem;
+  transform: scale(1);
 }
 
 span {
@@ -121,7 +124,7 @@ p .about-paragraph {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 120px;
+  padding-top: 40px;
 }
 
 .second-row-products {
@@ -273,4 +276,141 @@ p .about-paragraph {
 
 .pagination .page-link {
   color: rgb(255, 138, 132);
+}
+
+/*item  page css starts here */
+
+.trial-carousel-container {
+  display: flex;
+  flex-direction: row;
+  width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.slide {
+  padding-top: 30px;
+}
+
+.carousel-inner {
+  width: 20rem;
+}
+
+.carousel-details {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+div .carousel-img {
+  display: block;
+  height: 450px;
+}
+
+.carousel-item-price {
+  align-self: flex-start;
+  padding-left: 30px;
+}
+
+.carousel-product-title {
+  font-size: 22px;
+}
+
+.dollar-amount {
+  font-size: 14px;
+}
+
+.availability {
+  color: green;
+  font-size: 12px;
+}
+
+.carousel-sizes {
+  padding-left: 30px;
+}
+
+.form-select-sizes {
+  width: 6rem;
+  border: 1px solid rgba(255, 138, 132, 0.75);
+  background-color: white;
+  font-size: 0.7rem;
+  text-align: center;
+  color: gray;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  padding: 3px;
+}
+
+.carousel-paragraph {
+  font-size: 0.6rem;
+  padding-left: 30px;
+  padding-top: 30px;
+  width: 400px;
+}
+
+.related-item-h5 {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: rgba(255, 138, 132, 0.75);
+  font-size: 14px;
+}
+
+.card.description.footer-card-description {
+  width: 10rem;
+  height: 12rem;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.related-btn {
+  background-color: rgba(255, 138, 132, 0.75);
+  border: 1px solid rgba(255, 138, 132, 0.75);
+  padding: 5px;
+  font-size: 8px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.related-btn:hover {
+  background-color: plum;
+  border: 1px solid lightpink;
+}
+
+.purchase-btn {
+  background-color: rgba(255, 138, 132, 0.75);
+  border: 1px solid rgba(255, 138, 132, 0.75);
+  padding: 1px;
+  font-size: 8px;
+  margin-bottom: 5px;
+}
+
+.purchase-btn:hover {
+  background-color: plum;
+  border: 1px solid lightpink;
+}
+
+.card-img-top.footer-img {
+  width: 10rem;
+  height: 12rem;
+}
+
+.footer-img:hover {
+  width: 10rem;
+  height: 12rem;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.related-card-row {
+  margin-bottom: 45px;
+  margin-top: 30px;
+}
+
+.related-item-title {
+  font-size: 12px;
 }
