@@ -1,41 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- <link rel="stylesheet" href="./css/styles.css"> -->
-    <link rel="stylesheet" href="./instyle.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-</head>
-<body>
-<div class="container-fluid " style="background-color: rgba(255, 138, 132); position: fixed; z-index: 5;">
-    <nav class="navbar navbar-expand-lg" style="top: 0;">
+    <link rel="stylesheet" href="./instyle.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div
+      class="container-fluid"
+      style="background-color: rgba(255, 138, 132); position: fixed; z-index: 5"
+    >
+      <nav class="navbar navbar-expand-lg" style="top: 0">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./"><img src="/Resources/Images/logo.png" alt="logo" style="width: 60px;border-radius: 50%; margin-left: auto; margin-right: auto;"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="./"
+            ><img
+              src="/Resources/Images/logo.png"
+              alt="logo"
+              style="
+                width: 60px;
+                border-radius: 50%;
+                margin-left: auto;
+                margin-right: auto;
+              "
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                <a class="nav-link fs-5" href="./index.html" target="_blank">Home</a>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="./index.html" target="_blank"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5" href="./about.html" target="_blank">About Us</a>
+                <a class="nav-link fs-5" href="./about.html" target="_blank"
+                  >About Us</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5" href="./posts.html" target="_blank">Shop</a>
+                <a class="nav-link fs-5" href="./products.html" target="_blank"
+                  >Shop</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5" href="./contact.html" target="_blank">Contact Us</a>
-              </li> 
-              </ul>
-             <div class="col-4 mt-1">
-              <div class="input-group mb-1 ">
-                <a href="#" style="color:black; text-decoration: none; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><i class="bi bi-bag-heart-fill p-3" style="font-size: 1.5rem;"></i></a>
+                <a class="nav-link fs-5" href="./contact.html" target="_blank"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <div class="col-4 mt-1">
+              <div class="input-group mb-1">
+                <a
+                  href="#"
+                  style="
+                    color: black;
+                    text-decoration: none;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                      sans-serif;
+                  "
+                  ><i
+                    class="bi bi-bag-heart-fill p-3"
+                    style="font-size: 1.5rem"
+                  ></i
+                ></a>
                 <form class="d-flex" role="search">
                   <input
                     class="form-control me-2"
@@ -43,62 +92,104 @@
                     placeholder="What's the occassion?"
                     aria-label="Search"
                   />
-                  <button class="btn btn-outline-success nav-btn" id="searchButton" type="submit">
+                  <button
+                    class="btn btn-outline-success nav-btn"
+                    id="searchButton"
+                    type="submit"
+                  >
                     Search
                   </button>
                 </form>
-              </div> 
-             </div>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
     </div>
-      <!-- Nav bar ends here -->
-  <!-- banner begins here -->
-    <div class="container-fluid pt-5" style="background-color: rgb(255, 216, 229)">
-        <div class="row bg-dark" style="height: 500px; background-image: url(./Resources/Images/home-pic.jpg)">
-        </div>
+    <!-- Nav bar ends here -->
+    <!-- banner begins here -->
+    <div
+      class="container-fluid pt-5"
+      style="background-color: rgb(255, 216, 229)"
+    >
+      <div
+        class="row bg-dark"
+        style="
+          height: 500px;
+          background-image: url(./Resources/Images/home-pic.jpg);
+        "
+      ></div>
     </div>
-   <!-- banner ends here -->
-    <div class="container-fluid p-5" style="background-color: rgb(255, 216, 229)">
-       <div class="row">
-           <div class="col text-center">
-                <a href="#"><button type="button" class="btn btn-primary btn-lg p-4" id= "shop-icon">Shop</button>
-                </a>
-            </div>
-        <div class="col-5 px-5 text-secondary" style="font-size: 30px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
-            <p>
-                <span style="font-size: 50pt; text-align: justify;">W</span>e Want to empower women through fashion. We are setting new standards by providing solutions for every body.  Our goal is to consistently innovate on the past and advance our industry for the future.
-            </p>
+    <!-- banner ends here -->
+    <div
+      class="container-fluid p-5"
+      style="background-color: rgb(255, 216, 229)"
+    >
+      <div class="row">
+        <div class="col text-center">
+          <a href="#"
+            ><button
+              type="button"
+              class="btn btn-primary btn-lg p-4"
+              id="shop-icon"
+            >
+              Shop
+            </button>
+          </a>
         </div>
+        <div
+          class="col-5 px-5 text-secondary"
+          style="
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+          "
+        >
+          <p>
+            <span style="font-size: 50pt; text-align: justify">W</span>e Want to
+            empower women through fashion. We are setting new standards by
+            providing solutions for every body. Our goal is to consistently
+            innovate on the past and advance our industry for the future.
+          </p>
         </div>
+      </div>
     </div>
- 
-<!-- shop button and text -->
 
-<!--end pic starts here-->
-<div class="container-fluid pt-5" style="background-image: url(./Resources/Images/end-banner.webp); height: 500px; width:70%;">
-    <div class="row pt-3 align-items-center style=" >
-        <div class="col text-center bg-dark" >
-        </div>
-        
-    </div>  
-</div>
-<!--end pic ends here-->
+    <!-- shop button and text -->
 
+    <!--end pic starts here-->
+    <div
+      class="container-fluid pt-5"
+      style="
+        background-image: url(./Resources/Images/end-banner.webp);
+        height: 500px;
+        width: 70%;
+      "
+    >
+      <div class="row pt-3 align-items-center style=">
+        <div class="col text-center bg-dark"></div>
+      </div>
+    </div>
+    <!--end pic ends here-->
 
-
-
-<!-- Footer starts here -->
-      <footer>
-        <div class="contaner-fluid bg-secondary text-light text-center ">
-            <i class="bi bi-facebook px-3" style="font-size: 1.8rem;"></i>
-            <i class="bi bi-twitter px-3" style="font-size: 1.8rem;"></i>
-            <i class="bi bi-linkedin px-3" style="font-size: 1.8rem;"></i>
-        </div>
+    <!-- Footer starts here -->
+    <footer>
+      <div class="contaner-fluid bg-secondary text-light text-center">
+        <i class="bi bi-facebook px-3" style="font-size: 1.8rem"></i>
+        <i class="bi bi-twitter px-3" style="font-size: 1.8rem"></i>
+        <i class="bi bi-linkedin px-3" style="font-size: 1.8rem"></i>
+      </div>
     </footer>
     <!--footer ends here-->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-    </body>
-    </html>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
