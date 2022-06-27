@@ -21,6 +21,7 @@ function addItemCard(item) {
   itemsContainer.innerHTML += itemHTML;
 }
 
+
 function loadStorageSampleData() {
   if (!localStorage.getItem("items")) {
     const sampleItems = [

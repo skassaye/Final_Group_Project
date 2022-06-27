@@ -18,16 +18,16 @@ class BoutiqueController {
     // Push the item to the items property
     this.items.push(item);
   }
-};
+
 
 loadItemsFromLocalStorage() {
-        const storageItems = localStorage.getItem("items")
+        const storageItems = localStorage.getItem("items");
         if (storageItems) {
             const items = JSON.parse(storageItems)
-            for (var i = 0, size = items.length; i < size; i++) {
+            for (var i = 0; i < items.length; i++) {
                 const item = items[i];
                 this.items.push(item);
             }
         }
 }
-  
+};
