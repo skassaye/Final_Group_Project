@@ -11,4 +11,66 @@
   background-color: plum;
   border: 1px solid lightpink;.
  }
+ /* contact us style starts here */
+ body{
+   text-align: center;
+   background-color: lightpink;
+   /* font-family: Georgia, "Times New Roman", Times, serif; */
+
+ }
+
+ .contact-head{
+  color:rgb(255, 138, 132);
+  padding-bottom: 10px;
+ }
+
+ .submit-btn{
+  margin-bottom: 10px;
+  background-color: plum;
+  color: white;
+  border: solid 1px plum;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.container-contact{
+  padding: 100px;
+  text-align: center;
+}
+
+ /* footer style starts here */
+ .product-footer {
+  background-color: rgb(249, 238, 238);
+  border-top: 10px solid rgb(255, 138, 132);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+  margin: 0 -10px -10px -10px;
+}
+
+.faq {
+  padding: 40px;
+}
+
+.footer-title {
+  text-transform: uppercase;
+  color: rgb(255, 138, 132);
+}
+
+.faq a {
+  text-decoration: none;
+  color: gray;
+}
+
+.faq a:hover {
+  color: plum;
+  text-decoration: underline;
+}
+
+.footer-btn {
+  margin: 10px;
+}
+
 
