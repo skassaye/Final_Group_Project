@@ -14,8 +14,15 @@
 /* contact us style starts here */
 
 .contact-head {
+  padding-top: 100px;
+  text-align: center;
   color: rgb(255, 138, 132);
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+}
+
+.container-contact {
+ 
+  text-align: center;
 }
 
 .submit-btn {
@@ -28,10 +35,7 @@
   font-size: 20px;
 }
 
-.container-contact {
-  padding: 100px;
-  text-align: center;
-}
+
 
 /* footer style starts here */
 .product-footer {

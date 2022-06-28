@@ -10,7 +10,7 @@ function addItemCard(item) {
   /></a>
   <div class="card-body img-container">
     <h5 class="card-title item-description">${item.name}</h5>
-    <h6 class="card-title item-price">${item.price}</h6>
+    <h6 class="card-title item-price">$${item.price}</h6>
     <div class="card-body mb-5">
       <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
     </div>
@@ -21,110 +21,109 @@ function addItemCard(item) {
   itemsContainer.innerHTML += itemHTML;
 }
 
-
 function loadStorageSampleData() {
   if (!localStorage.getItem("items")) {
     const sampleItems = [
-      {
-        name: "Green Sparkle Dress",
-   price: "$98.00",
-   description: "",
-   picture: "./Resources/images/greendress.jpg",
-      },
+//       {
+//         name: "Green Sparkle Dress",
+//    price: "$98.00",
+//    description: "",
+//    picture: "./Resources/images/greendress.jpg",
+//       },
 
-      {
-        name: "Patterned Cardigan",
-   price: "$85.00",
-   description: "",
-   picture: "./Resources/images/cardigan.jpg",
-      },
-
-       
-      {
-        name: "Golden Dress",
-   price: "$108.00",
-   description: "",
-   picture: "./Resources/images/golddress.jpg",
-      },
+//       {
+//         name: "Patterned Cardigan",
+//    price: "$85.00",
+//    description: "",
+//    picture: "./Resources/images/cardigan.jpg",
+//       },
 
        
-      {
-        name: "Magenta Statement Dress",
-   price: "$120.00",
-   description: "",
-   picture: "./Resources/images/magentadress.jpg",
-      },
+//       {
+//         name: "Golden Dress",
+//    price: "$108.00",
+//    description: "",
+//    picture: "./Resources/images/golddress.jpg",
+//       },
 
        
-      {
-        name: "Magenta Statement Dress",
-    price: "$120.00",
-    description: "",
-    picture: "./Resources/images/magentadress.jpg",
-      },
+//       {
+//         name: "Magenta Statement Dress",
+//    price: "$120.00",
+//    description: "",
+//    picture: "./Resources/images/magentadress.jpg",
+//       },
 
        
-      {
-        name: "Purple Shoulder Dress",
-   price: "$110.00",
-   description: "",
-   picture: "./Resources/images/purpledress.jpg",
-      },
+//       {
+//         name: "Magenta Statement Dress",
+//     price: "$120.00",
+//     description: "",
+//     picture: "./Resources/images/magentadress.jpg",
+//       },
 
        
-      {
-        name: "Red Floral Dress",
-   price: "$102.00",
-   description: "",
-   picture: "./Resources/images/redfloral.jpg",
-      },
+//       {
+//         name: "Purple Shoulder Dress",
+//    price: "$110.00",
+//    description: "",
+//    picture: "./Resources/images/purpledress.jpg",
+//       },
 
        
-      {
-         name: "Sheer Pattern Dress",
-   price: "$106.00",
-   description: "",
-   picture: "./Resources/images/sheerdress.jpg",
-      },
+//       {
+//         name: "Red Floral Dress",
+//    price: "$102.00",
+//    description: "",
+//    picture: "./Resources/images/redfloral.jpg",
+//       },
 
        
-      {
-        name: "Red Silhouette Dress",
-   price: "$120.00",
-   description: "",
-   picture: "./Resources/images/redsideflow.jpg",
-      },
+//       {
+//          name: "Sheer Pattern Dress",
+//    price: "$106.00",
+//    description: "",
+//    picture: "./Resources/images/sheerdress.jpg",
+//       },
 
        
-      {name: "Flowy Dress Shirt",
-   price: "$102.00",
-   description: "",
-   picture: "./Resources/images/Linendress.jpg",
-      },
+//       {
+//         name: "Red Silhouette Dress",
+//    price: "$120.00",
+//    description: "",
+//    picture: "./Resources/images/redsideflow.jpg",
+//       },
 
        
-      {
-        name: "White Fur Coat",
-   price: "$150.00",
-   description: "",
-   picture: "./Resources/images/whitefurcoat.jpg",
-      },
+//       {name: "Flowy Dress Shirt",
+//    price: "$102.00",
+//    description: "",
+//    picture: "./Resources/images/Linendress.jpg",
+//       },
 
        
-      {
-        name: "Red Mini Dress",
-   price: "$98.00",
-   description: "",
-   picture: "./Resources/images/redminidress.jpg",
-      },
+//       {
+//         name: "White Fur Coat",
+//    price: "$150.00",
+//    description: "",
+//    picture: "./Resources/images/whitefurcoat.jpg",
+//       },
 
        
-      {
-       name: "Polkadots Sheer Dress",
-   price: "$120.00",
-   description: "",
-   picture: "./Resources/images/Polkadots_sheer.jpg",
-      },
+//       {
+//         name: "Red Mini Dress",
+//    price: "$98.00",
+//    description: "",
+//    picture: "./Resources/images/redminidress.jpg",
+//       },
+
+       
+//       {
+//        name: "Polkadots Sheer Dress",
+//    price: "$120.00",
+//    description: "",
+//    picture: "./Resources/images/Polkadots_sheer.jpg",
+//       },
 
     ];
     localStorage.setItem("items", JSON.stringify(sampleItems));

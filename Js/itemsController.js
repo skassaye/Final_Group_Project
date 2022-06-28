@@ -17,6 +17,7 @@ class BoutiqueController {
 
     // Push the item to the items property
     this.items.push(item);
+    localStorage.setItem("items", JSON.stringify(this.items));
   }
 
 
