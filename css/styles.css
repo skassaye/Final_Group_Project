@@ -1,5 +1,4 @@
-
- h1 {
+h1 {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 15px;
@@ -270,4 +269,9 @@ p .about-paragraph {
 
 .pagination .page-link {
   color: rgb(255, 138, 132);
+}
+
+/* add to cart styles start here!!! */
+.table {
+  padding-top: 100px;
 }
