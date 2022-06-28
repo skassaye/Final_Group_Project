@@ -17,11 +17,10 @@
   padding-top: 100px;
   text-align: center;
   color: rgb(255, 138, 132);
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 .container-contact {
- 
   text-align: center;
 }
 
@@ -34,8 +33,6 @@
   padding: 10px;
   font-size: 20px;
 }
-
-
 
 /* footer style starts here */
 .product-footer {
