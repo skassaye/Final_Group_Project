@@ -1,14 +1,13 @@
 #searchButton:hover {
-    background-color: plum;
-    border: 1px solid lightpink;
-  }
- #shop-icon {
-  margin-top: 7%;
- font-size: 60px;
- background-color:brown
- }
- #shop-icon:hover {
   background-color: plum;
-  border: 1px solid lightpink;.
- }
-
+  border: 1px solid lightpink;
+}
+#shop-icon {
+  margin-top: 7%;
+  font-size: 60px;
+  background-color: brown;
+}
+#shop-icon:hover {
+  background-color: plum;
+  border: 1px solid lightpink;
+}
