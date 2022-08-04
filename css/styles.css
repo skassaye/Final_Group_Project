@@ -270,3 +270,8 @@ p .about-paragraph {
 .pagination .page-link {
   color: rgb(255, 138, 132);
 }
+
+/* add to cart styles start here!!! */
+.table {
+  padding-top: 100px;
+}
