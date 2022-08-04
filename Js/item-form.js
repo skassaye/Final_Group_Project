@@ -1,34 +1,27 @@
+let name = document.getElementById("newItemName")
+let price = document.getElementById("newPriceItem")
+let description = document.getElementById("newItemDescription")
+let imageUrl = document.getElementById("newItemImageUrl")
 
-const boutiqueController = new BoutiqueController(0);
-const newItemForm = document.querySelector('#newItemForm');
+class ItemController {
+    constructor(name, price, description, imageUrl) {
+      this.name = name;
+      this.price = price;
+      this.description = description;
+      this.imageUrl = imageUrl;
+    }
+    }
 
-// Add an 'onsubmit' event listener
-newItemForm.addEventListener('submit', (event) => {
-    // Prevent default action
-    event.preventDefault();
+    
 
-    // Select the inputs
-    const newItemName = document.querySelector('#newItemName');
-    const newPriceItem = document.querySelector('#newPriceItem');
-    const newItemDescription = document.querySelector('#newItemDescription');
-    const newItemImageUrl = document.querySelector('#newItemImageUrl');    
-
-    // Get the values of the inputs
-    const name = newItemName.value;
-    const price=newPriceItem.value;
-    const description = newItemDescription.value;
-    const imageUrl = newItemImageUrl.value;
-
-    /*
-        Validation code here
-    */
-
-    // Add the item to the ItemsController
-    boutiqueController.addItem(name, price,description, imageUrl);
-
-    // Clear the form
-    newItemName.value = '';
-    newPriceItem.value='';
-    newItemDescription.value = '';
-    newItemImageUrl.value ='';    
-});
+function postNewItem(){
+    let item = new ItemController(name.value, price.value, description.value, imageUrl.value)
+    // console.log(item);
+    fetch("http://localhost:8080/item/addItem", {
+        method: "POST",
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(item)
+    }
+    )
+    alert(`${item.name} has been added to database`)
+}

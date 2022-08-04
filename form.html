@@ -106,43 +106,33 @@
         </div>
       </nav>
     </div>
-    <!--nav bar ends here-->
+    <!--nav bar ends here-->  
+    <div class="container" style="padding: 50px;">
+        <h1 class="my-5">New Item</h1>
+        <div class="row">
+            <div class="col-6">
+                <form id="newItemForm">
+                    <div class="form-group">
+                        <label for="newItemName">Name</label>
+                        <input type="text" class="form-control" id="newItemName">
+                    </div>
+                    <div class="form-group">
+                        <label for="newItemDescription">price</label>
+                        <input type="number" class="form-control" id="newPriceItem"></input>
+                    </div>
+                    <div class="form-group">
+                        <label for="newItemDescription">Description</label>
+                        <textarea type="text" class="form-control" id="newItemDescription"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="newItemImageUrl">Image URL</label>
+                        <input type="text" class="form-control" id="newItemImageUrl">
+                    </div>                    
+                    
+                    <button type="submit" class="btn btn-primary btn-block" onclick="postNewItem()">Submit</button>
+                </form>
 
-    <div class="container" style="padding: 50px">
-      <h1 class="my-5">New Item</h1>
-      <div class="row">
-        <div class="col">
-          <form id="newItemForm">
-            <div class="form-group">
-              <label for="newItemName">Name</label>
-              <input type="text" class="form-control" id="newItemName" />
-            </div>
-            <div class="form-group">
-              <label for="newItemDescription">price</label>
-              <textarea
-                type="number"
-                class="form-control"
-                id="newPriceItem"
-              ></textarea>
-            </div>
-            <div class="form-group">
-              <label for="newItemDescription">Description</label>
-              <textarea
-                type="text"
-                class="form-control"
-                id="newItemDescription"
-              ></textarea>
-            </div>
-
-            <div class="form-group">
-              <label for="newItemImageUrl">Image URL</label>
-              <input type="text" class="form-control" id="newItemImageUrl" />
-            </div>
-
-            <button type="submit" class="btn btn-primary btn-block">
-              Submit
-            </button>
-          </form>
         </div>
       </div>
     </div>
@@ -159,7 +149,6 @@
         <input type="file" id="item-name" name="fname" value=""><br>
         <input type="submit" id="submit-btn" value="Submit"> -->
     <!-- </form> -->
-    <script src="./Js/itemsController.js"></script>
     <script src="./Js/item-form.js"></script>
 
     <!-- <script src="./Js/index.js"></script> -->
