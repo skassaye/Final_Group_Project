@@ -1,41 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Mazr Boutique</title>
     <!-- <link rel="stylesheet" href="./css/styles.css"> -->
-    <link rel="stylesheet" href="./instyle.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-</head>
-<body>
-<div class="container-fluid " style="background-color: rgba(255, 138, 132); position: fixed; z-index: 5;">
-    <nav class="navbar navbar-expand-lg" style="top: 0;">
+    <link rel="stylesheet" href="./instyle.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div
+      class="container-fluid"
+      style="background-color: rgba(255, 138, 132); position: fixed; z-index: 5"
+    >
+      <nav class="navbar navbar-expand-lg" style="top: 0">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./"><img src="/Resources/Images/logo.png" alt="logo" style="width: 60px;border-radius: 50%; margin-left: auto; margin-right: auto;"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="./"
+            ><img
+              src="/Resources/Images/logo.png"
+              alt="logo"
+              style="
+                width: 60px;
+                border-radius: 50%;
+                margin-left: auto;
+                margin-right: auto;
+              "
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                <a class="nav-link fs-5" href="./index.html" target="_blank">Home</a>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="./index.html" target="_blank"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5" href="./about.html" target="_blank">About Us</a>
+                <a class="nav-link fs-5" href="./about.html" target="_blank"
+                  >About Us</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5" href="./posts.html" target="_blank">Shop</a>
+                <a class="nav-link fs-5" href="./products.html" target="_blank"
+                  >Shop</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5" href="./contact.html" target="_blank">Contact Us</a>
-              </li> 
-              </ul>
-             <div class="col-4 mt-1">
-              <div class="input-group mb-1 ">
-                <a href="#" style="color:black; text-decoration: none; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><i class="bi bi-bag-heart-fill p-3" style="font-size: 1.5rem;"></i></a>
+                <a class="nav-link fs-5" href="./contact.html" target="_blank"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <div class="col-4 mt-1">
+              <div class="input-group mb-1">
+                <a
+                  href="#"
+                  style="
+                    color: black;
+                    text-decoration: none;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                      sans-serif;
+                  "
+                  ><i
+                    class="bi bi-bag-heart-fill p-3"
+                    style="font-size: 1.5rem"
+                  ></i
+                ></a>
                 <form class="d-flex" role="search">
                   <input
                     class="form-control me-2"
@@ -43,49 +92,61 @@
                     placeholder="What's the occassion?"
                     aria-label="Search"
                   />
-                  <button class="btn btn-outline-success nav-btn" id="searchButton" type="submit">
+                  <button
+                    class="btn btn-outline-success nav-btn"
+                    id="searchButton"
+                    type="submit"
+                  >
                     Search
                   </button>
                 </form>
-              </div> 
-             </div>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
     </div>
     <!--nav bar ends here-->
-    
-    
-       
-    <div class="container" style="padding: 50px;">
-        <h1 class="my-5">New Item</h1>
-        <div class="row">
-            <div class="col">
-                <form id="newItemForm">
-                    <div class="form-group">
-                        <label for="newItemName">Name</label>
-                        <input type="text" class="form-control" id="newItemName">
-                    </div>
-                    <div class="form-group">
-                        <label for="newItemDescription">price</label>
-                        <textarea type="number" class="form-control" id="newPriceItem"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="newItemDescription">Description</label>
-                        <textarea type="text" class="form-control" id="newItemDescription"></textarea>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="newItemImageUrl">Image URL</label>
-                        <input type="text" class="form-control" id="newItemImageUrl">
-                    </div>                    
-                    
-                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
-                </form>
+
+    <div class="container" style="padding: 50px">
+      <h1 class="my-5">New Item</h1>
+      <div class="row">
+        <div class="col">
+          <form id="newItemForm">
+            <div class="form-group">
+              <label for="newItemName">Name</label>
+              <input type="text" class="form-control" id="newItemName" />
             </div>
+            <div class="form-group">
+              <label for="newItemDescription">price</label>
+              <textarea
+                type="number"
+                class="form-control"
+                id="newPriceItem"
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <label for="newItemDescription">Description</label>
+              <textarea
+                type="text"
+                class="form-control"
+                id="newItemDescription"
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="newItemImageUrl">Image URL</label>
+              <input type="text" class="form-control" id="newItemImageUrl" />
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">
+              Submit
+            </button>
+          </form>
         </div>
+      </div>
     </div>
-<!--      
+    <!--      
     
     <form style="padding-top: 100px; text-align: center">   
         <label for="item-name">Name</label><br>
@@ -102,4 +163,5 @@
     <script src="./Js/item-form.js"></script>
 
     <!-- <script src="./Js/index.js"></script> -->
-    </body>
+  </body>
+</html>
